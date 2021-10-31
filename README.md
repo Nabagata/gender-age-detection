@@ -4,9 +4,9 @@ We use Deep Learning to accurately identify the gender and age of a person from 
 
 The convolutional neural network used here has 3 convolutional layers:
 
-* Convolutional layer; 96 nodes, kernel size 7
-* Convolutional layer; 256 nodes, kernel size 5
-* Convolutional layer; 384 nodes, kernel size 3
+* Convolutional layer: 96 nodes, kernel size 7
+* Convolutional layer: 256 nodes, kernel size 5
+* Convolutional layer: 384 nodes, kernel size 3
 
 The model has been trained on the Adience dataset and it is available [here](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification). This dataset serves as a benchmark for face photos and is inclusive of various real-world imaging conditions like noise, lighting, pose, and appearance.
 
@@ -20,8 +20,8 @@ Other packages you’ll be needing are math and argparse, but those come as part
 ## Usage
 ```bash
 git clone https://github.com/nabagata/gender-age-detection.git 
-```
 python gad.py --image images/kid1.jpg
+```
 
 ## Results
 
